@@ -9,11 +9,13 @@ import random
 
 # intro
 print("\t\t\tLet the computer guess your number!")
+print("\nCan you make a computer 'sweat'?")
+print("Make the computer guess as many times as you can!\n")
 
 # initial values
 # player picks a number
 # don't forget to convert the input to an integer
-number = int(input("\npick a number between 1 and 100: "))
+number = int(input("\nPick a number between 1 and 100: "))
 guess = 0
 tries = 0
 
