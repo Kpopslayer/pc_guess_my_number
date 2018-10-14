@@ -22,7 +22,7 @@ tries = 0
 # guessing loop
 while guess != number:
     guess = random.randint(1, 100)
-    print("Is it...", guess,"?")
+    print("Is it..." + str(guess) +"?")
     tries += 1
     
 # number of tries is printed
